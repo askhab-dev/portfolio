@@ -60,7 +60,7 @@ export const Header = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className='text-gray-900 dark:text-white'
+            className='text-gray-900 font-semibold dark:text-white'
           >
             askhab-dev
           </motion.div>
