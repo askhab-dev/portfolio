@@ -125,7 +125,7 @@ export const Experience = () => {
                               'h-5 w-5 text-blue-600 flex-shrink-0 ' + 'mt-0.5'
                             }
                           />
-                          <span>{achievement}</span>
+                          <span dangerouslySetInnerHTML={{__html: achievement}}/>
                         </motion.li>
                       ),
                     )}

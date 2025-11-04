@@ -25,7 +25,7 @@ export const getExperienceData = (language: Language): ExperienceItem[] => {
         achievements: [
           'Разработка функционала обработки просроченных ' +
             'счетов в биллинге партнёрского кабинета ' +
-            'amostart.ru',
+            '<a href="amostart.ru" target="_blank">amostart.ru</a>',
           'Вёрстка сетки опций и добавление новых тарифов в ' +
             'клиентский и партнёрский биллинги amoCRM — ' +
             'Enterprise Lite 30, Enterprise 200, Лимиты+, ' +
@@ -34,15 +34,20 @@ export const getExperienceData = (language: Language): ExperienceItem[] => {
           'Настройка SEO и аналитики (Яндекс.Метрика, ' +
             'Top.Mail.ru, Google Tag Manager, BotFAQtor)',
           'Вёрстка HTML-писем для массовых рассылок',
-          'Разработка и вёрстка лендингов бизнес-конференций: antinaim.ru, startconf.ru, crmday.ru',
+          `
+            Разработка и вёрстка лендингов бизнес-конференций:
+            <a href="https://antinaim.ru" target="_blank">antinaim.ru</a>,
+            <a href="https://startconf.ru" target="_blank">startconf.ru</a>,
+            <a href="https://crmday.ru" target="_blank">crmday.ru</a>,
+          `,
           'Создание виджетов для автоматизации CRM-процессов',
-          'Дебаг и поддержка легаси-кода промо-сайта и ядра amocrm.ru',
-          'Оптимизация проектов: перевод сборки проекта antinaim.ru с Gulp на ' +
+          'Дебаг и поддержка легаси-кода промо-сайта и ядра <a href="https://amocrm.ru" target="_blank">amocrm.ru</a>',
+          'Оптимизация проектов: перевод сборки проекта <a href="https://antinaim.ru" target="_blank">antinaim.ru</a> с Gulp на ' +
             'Webpack — вес бандлов уменьшился на 15%, ' + 
           'отрефакторил легаси-код, переведя ' +
             'рендеринг с PHP на Twig и сократив объём кода на 70%',
           'Вёрстка страницы кейсов тарифа Enterprise на ' +
-            'amoprime.ru',
+            '<a href="https://amoprime.ru" target="_blank">amoprime.ru</a>',
           'Наставлял младшего разработчика: помогал в ' +
             'адаптации, проводил код-ревью (30+ ревью в месяц)',
           'Опыт работы c монолитами и микросервисной ' +
@@ -68,8 +73,9 @@ export const getExperienceData = (language: Language): ExperienceItem[] => {
       period: '2025',
       position: 'Automation Department',
       achievements: [
-        'Developed overdue invoice processing functionality ' +
-          'for amostart.ru partner billing',
+        'Developed overdue invoice processing functionality for ' +
+          '<a href="amostart.ru" target="_blank">amostart.ru</a> ',
+          'partner billing',
         'Created billing option grids and added new tariffs ' +
           'to client and partner billing — Enterprise Lite 30, ' +
           'Enterprise 200, Limits+, API filtering',
@@ -77,14 +83,19 @@ export const getExperienceData = (language: Language): ExperienceItem[] => {
         'Configured SEO and analytics (Yandex.Metrica, ' +
           'Top.Mail.ru, Google Tag Manager, BotFAQtor)',
         'Created HTML email templates for mass mailings',
-        'Developed and built business conference landing pages: antinaim.ru, startconf.ru, crmday.ru',
+        `
+          Developed and built business conference landing pages:
+          <a href="https://antinaim.ru" target="_blank">antinaim.ru</a>,
+          <a href="https://startconf.ru" target="_blank">startconf.ru</a>,
+          <a href="https://crmday.ru" target="_blank">crmday.ru</a>,
+        `,
         'Created widgets for CRM process automation',
         'Debugged and maintained legacy code for promotional ' +
-          'website and amocrm.ru core',
-        'Project optimization: Switching the antinaim.ru project build from Gulp to Webpack reduced bundle size by 15%, ' +
+          'website and <a href="https://amocrm.ru" target="_blank">amocrm.ru</a> core',
+        'Project optimization: Switching the <a href="https://antinaim.ru" target="_blank">antinaim.ru</a> project build from Gulp to Webpack reduced bundle size by 15%, ' +
           'refactoring legacy code by switching rendering from PHP to Twig and reducing code size by 70%',
         'Built Enterprise tariff integration cases page at ' +
-          'amoprime.ru',
+          '<a href="https://amoprime.ru" target="_blank">amoprime.ru</a>',
         'Mentored junior developer: helped with onboarding, ' +
           'conducted code reviews (30+ reviews per month)',
         'Experience with monoliths and microservice ' +
