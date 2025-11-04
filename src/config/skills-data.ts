@@ -52,6 +52,7 @@ export const getSkillsData = (translate: (key: string) => string): SkillCategory
         translate('skills_additional_4'),
         translate('skills_additional_5'),
         translate('skills_additional_6'),
+        'Agile/Scrum/Kanban',
       ],
       color: 'from-orange-600 to-red-600',
     },
