@@ -13,6 +13,7 @@ export const getExperienceData = (language: Language): ExperienceItem[] => {
         period: '2024',
         position: 'Отдел интеграций',
         achievements: [
+          'Разработка виджетов — интеграций в CRM',
           'Поддержка интеграторов amoCRM и аудит кода ' +
             'виджетов в amoMarket',
           'Дополнение и актуализация API-документации amoCRM',
@@ -57,6 +58,7 @@ export const getExperienceData = (language: Language): ExperienceItem[] => {
       period: '2024',
       position: 'Integrations Department',
       achievements: [
+        'Developing widgets — CRM integrations',
         'Support for amoCRM integrators and widget code ' +
           'audits in amoMarket',
         'Updating and maintaining amoCRM API documentation',
