@@ -25,7 +25,7 @@ export const getExperienceData = (language: Language): ExperienceItem[] => {
         achievements: [
           'Разработка функционала обработки просроченных ' +
             'счетов в биллинге партнёрского кабинета ' +
-            '<a href="amostart.ru" target="_blank">amostart.ru</a>',
+            '<a href="https://amostart.ru" target="_blank">amostart.ru</a>',
           'Вёрстка сетки опций и добавление новых тарифов в ' +
             'клиентский и партнёрский биллинги amoCRM — ' +
             'Enterprise Lite 30, Enterprise 200, Лимиты+, ' +
@@ -74,7 +74,7 @@ export const getExperienceData = (language: Language): ExperienceItem[] => {
       position: 'Automation Department',
       achievements: [
         'Developed overdue invoice processing functionality for ' +
-          '<a href="amostart.ru" target="_blank">amostart.ru</a> ',
+          '<a href="https://amostart.ru" target="_blank">amostart.ru</a> ',
           'partner billing',
         'Created billing option grids and added new tariffs ' +
           'to client and partner billing — Enterprise Lite 30, ' +
