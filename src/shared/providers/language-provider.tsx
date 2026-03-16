@@ -9,7 +9,7 @@ import {
 interface LanguageContextValue {
   language: Language;
   setLanguage: (language: Language) => void;
-  translate: (key: string) => string;
+  translate: (key: string) => string | React.ReactNode;
 }
 
 interface LanguageProviderProps {
@@ -37,7 +37,7 @@ export const LanguageProvider = ({ children }: LanguageProviderProps) => {
     localStorage.setItem(LANGUAGE_STORAGE_KEY, newLanguage);
   };
 
-  const translate = (key: string): string => {
+  const translate = (key: string): string | React.ReactNode => {
     const translation =
       translations[language as keyof typeof translations][key as keyof typeof translations.ru];
 

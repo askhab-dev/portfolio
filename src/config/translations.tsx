@@ -1,3 +1,4 @@
+import React from 'react';
 import { Language } from "../shared/constants/languages";
 
 interface Translations {
@@ -21,7 +22,7 @@ interface Translations {
   education_specialty: string;
   education_year: string;
   experience_title: string;
-  experience_company: string;
+  experience_company: React.ReactNode | string;
   experience_full_period: string;
   experience_period_1: string;
   experience_position_1: string;
@@ -75,7 +76,7 @@ export const translations: Record<Language, Translations> = {
       '09.03.03 — Прикладная информатика в технических ' + 'системах',
     education_year: '2020 — 2024',
     experience_title: 'Опыт работы',
-    experience_company: 'amoCRM',
+    experience_company: <a className="text-inherit" href="https://amocrm.ru" target="_blank">amoCRM</a>,
     experience_full_period: '2024 — настоящее время',
     experience_period_1: '2024',
     experience_position_1: 'Отдел интеграций',
@@ -128,7 +129,7 @@ export const translations: Record<Language, Translations> = {
       '09.03.03 — Applied Computer Science in Technical ' + 'Systems',
     education_year: '2020 — 2024',
     experience_title: 'Experience',
-    experience_company: 'amoCRM',
+    experience_company: <a className="text-inherit" href="https://amocrm.ru" target="_blank">amoCRM</a>,
     experience_full_period: '2024 — present',
     experience_period_1: '2024',
     experience_position_1: 'Integrations Department',

@@ -2,13 +2,13 @@ import { MapPin, Mail, Github, LucideIcon } from 'lucide-react';
 
 interface ContactItem {
   icon: LucideIcon;
-  label: string;
-  value: string;
+  label: string | React.ReactNode;
+  value: string | React.ReactNode;
   link?: string;
   color: string;
 }
 
-export const getContactsData = (translate: (key: string) => string): ContactItem[] => {
+export const getContactsData = (translate: (key: string) => string | React.ReactNode): ContactItem[] => {
   return [
     {
       icon: MapPin,

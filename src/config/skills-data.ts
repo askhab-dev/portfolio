@@ -1,13 +1,14 @@
 import { Code2, Wrench, Database, Sparkles, LucideIcon } from 'lucide-react';
+import React from 'react';
 
 interface SkillCategory {
-  title: string;
+  title: string | React.ReactNode;
   icon: LucideIcon;
-  skills: string[];
+  skills: string[] | React.ReactNode[];
   color: string;
 }
 
-export const getSkillsData = (translate: (key: string) => string): SkillCategory[] => {
+export const getSkillsData = (translate: (key: string) => string | React.ReactNode): SkillCategory[] => {
   return [
     {
       title: translate('skills_frontend'),
@@ -16,24 +17,32 @@ export const getSkillsData = (translate: (key: string) => string): SkillCategory
         'React',
         'Next.js',
         'TypeScript',
-        'JavaScript (ES6+)',
-        'Tailwind',
-        'Sass',
+        'JavaScript',
         'HTML5',
         'CSS3',
-        'Jest',
+        'Sass',
+        'Tailwind',
         'Zustand',
         'Redux',
         'jQuery',
         'Backbone',
-        'Twig'
+        'Twig',
+        'Svelte',
+        'Framer Motion',
+        'TanStack Query',
+        'SWR',
+        'Recharts',
+        'i18next',
+        'Jest',
+        'Playwright',
+        'React Hook Form',
       ],
       color: 'from-blue-600 to-cyan-600',
     },
     {
       title: translate('skills_tools'),
       icon: Wrench,
-      skills: ['Webpack', 'Vite', 'Git', 'Gitlab', 'Figma', 'Postman', 'Docker', 'VSCode', 'Ubuntu'],
+      skills: ['Webpack', 'Vite', 'Git', 'Gitlab', 'Figma', 'Postman', 'Docker', 'Make', 'VSCode', 'Ubuntu', 'Vercel', 'npm', 'yarn', 'Eslint'],
       color: 'from-purple-600 to-pink-600',
     },
     {

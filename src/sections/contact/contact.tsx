@@ -57,7 +57,7 @@ export const Contact = () => {
                       'backdrop-blur-lg border border-white/20 ' +
                       'dark:border-gray-700/50 h-full ' +
                       'hover:shadow-xl transition-all duration-300 ' +
-                      'hover:-translate-y-2'
+                      'hover:-translate-y-2 break-words'
                     }
                   >
                     <motion.div
