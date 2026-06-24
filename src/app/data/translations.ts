@@ -33,8 +33,9 @@ export const translations = {
           period: 'апрель 2026 — настоящее время',
           description: [
             'Поддержка, адаптация и code-review стажёров',
-            'Разработка интеграции <a href="https://amocrm.ru" target="_blank" rel="noopener noreferrer">amoCRM</a> и Elma365 для управления акциями при продаже недвижимости',
-            'Разработка интеграционного модуля Elma365 для автоматизации отправки документов в Контур.Диадок',
+            'Интеграция <a href="https://amocrm.ru" target="_blank" rel="noopener noreferrer">amoCRM</a> и Elma365 для управления акциями при продаже недвижимости для застройщиков',
+            'Интеграция Elma365 для автоматизации отправки документов в Контур.Диадок для одного из крупнейших российских торгово-производственных холдингов',
+            'Виджет amoCRM для управления ролями контактов в сделке — продукт, закрывающий критическую потребность застройщиков в идентификации ключевых участников сделки.'
           ],
         },
         {
@@ -150,7 +151,8 @@ export const translations = {
           description: [
             'Onboarding, mentoring and code review of interns',
             'Built <a href="https://amocrm.ru" target="_blank" rel="noopener noreferrer">amoCRM</a> & Elma365 integration for managing real estate promotions with complex discount logic',
-            'Developed Elma365 integration module for automated document delivery to Kontur.Diadok',
+            'Built Elma365 integration to automate document submission to Kontur.Diadoc for one of Russia\'s largest trade and manufacturing holdings',
+            'Built amoCRM widget for managing contact roles in a transaction — a product that addresses a critical need for developers to identify key transaction participants.'
           ],
         },
         {
